@@ -1,0 +1,3 @@
+,id,username,password_hash,email,affiliation
+0,1,hollyb,pbkdf2:sha256:260000$6csUTXNSdXmZcWfA$841fe13fa6b13dd15dba9a96663b8ebca4bff8648e1dc1e59aca94d6fccf264c,holly@sprayermods.co,chaotic neutral
+1,2,hollyB1,pbkdf2:sha256:260000$yRummSnmcRD74h7f$5180f2cf9bb2cf05fd5613d4ae26b39083b87dcd35da611ee83d3c13dc0c297e,sssss,sssss

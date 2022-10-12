@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block container %}
+<div class="top-pad">
+
+    <div class="well">
+        <h2>
+            Login Here!
+            <form method="POST" action="/add_sighting" enctype="multipart/form-data">
+
+                <input type="submit" value="Add Signting">
+            </form>
+            Download dataset : <a href="{{url_for('signup_page')}}">here</a>
+        </h2>
+    </div>
+</div>
+{% endblock %}

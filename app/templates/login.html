@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block container %}
+<div class="top-pad">
+
+    <div class="well">
+        <h2>
+            Login Here!
+            <form method="POST" action="/login" enctype="multipart/form-data">
+                {{form.usernameOrEmail.label}}{{form.usernameOrEmail()}}
+                {{form.password.label}}{{form.password()}}
+                <input type="submit" value="Login">
+            </form>
+            Don't have an account? Sign up <a href="{{url_for('signup_page')}}">here</a>
+        </h2>
+    </div>
+</div>
+{% endblock %}
